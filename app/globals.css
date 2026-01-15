@@ -1,0 +1,96 @@
+/* ===========================
+   SOKPAH AI GLOBAL STYLES
+   Created by Akin S. Sokpah
+   =========================== */
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  background: linear-gradient(180deg, #020617, #020b1a, #000);
+  color: #ffffff;
+  font-family: "Segoe UI", system-ui, Arial, sans-serif;
+  min-height: 100vh;
+}
+
+/* LINKS */
+a {
+  color: #00e6ff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+/* HERO */
+.hero {
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3.8rem;
+  margin-bottom: 20px;
+}
+
+.hero span {
+  color: #00e6ff;
+}
+
+.hero p {
+  max-width: 900px;
+  margin: auto;
+  font-size: 1.2rem;
+  opacity: 0.9;
+}
+
+/* SECTIONS */
+section {
+  padding: 60px 20px;
+  max-width: 1300px;
+  margin: auto;
+}
+
+/* BUTTONS */
+.btn {
+  padding: 14px 30px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background: #00e6ff;
+  color: #000;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 2px solid #00e6ff;
+  color: #fff;
+}
+
+/* CARDS */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 28px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  background: rgba(255, 255, 255, 0.15);
+}
